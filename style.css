@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body {
+  width: 900px;
+  background-color: blueviolet;
+  font-size: 20pt;
+  font-family: "Fira Code";
+  margin: 20px auto 0px auto;
+}
+p {
+  text-align: justify;
+  text-indent: 50px;
+}
+input {
+  padding: 10px;
+  border-color: blueviolet;
+  
+}
+input#campoPalpite:hover {
+  background-color: #cecece;
+  transition: 1s;
+}
+.envioPalpite  {
+  background-color: blueviolet;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 12pt;
+  box-shadow: 0px 0px 10px rgba(0,0,0,1);
+}
+
+div#corpo {
+  background-color: white;
+  height: 500px;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow:0px 0px 10px rgba(0,0,0,1);
+}
